@@ -1,5 +1,4 @@
 FROM nodesource/jessie
-#FROM nodesource/jessie:5.8.0
 MAINTAINER Christian Brandlehner <christian@brandlehner.at>
 
 ##################################################

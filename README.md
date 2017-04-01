@@ -72,23 +72,39 @@ Diplays stdout log of the running container
 `./homebridge.sh logs`
 
 ## Changelog
-###0.11
+### 0.11
 moved from nodesource/jessie:5.6.0 to nodesource/jessie:5.8.0
+
 moved files that are copied into the image are in directory ./image
+
 moved configuration samtes to ./config-sample
+
 simplified Dockerfile and combined the previously two script files into a single script
+
 implemented a way to install homebridge modules at runtime without the need to include them in the docker image
+
 fixing a locale issue with C vs UTF-8
-###0.12
+
+### 0.12
 git push problem - do not use this release
-###0.13
+
+### 0.13
 should have fixed git push problem
-###0.14
+
+### 0.14
 added link to blog and sample start script
-###0.15
+
+### 0.15
 moved to jessie:latest
-###0.16
+
+### 0.16
 added debug run command to homebridge.sh
-###0.17
+
+### 0.17
 added homebridge-tesla
+
 updated versions
+
+### 0.18
+updated with current nodesource/jessie
+

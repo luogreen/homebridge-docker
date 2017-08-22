@@ -10,7 +10,7 @@ http://chris.brandlehner.at/Brandlehner/cab_blog.nsf/d6plinks/CBRR-A6XQUY
 ## Run
 
 ```shell
-docker run -d --restart --net=host --name=homebridge -p 51826:51826 luogreen/homebridge
+docker run -d --restart=always --net=host --name=homebridge -p 51826:51826 luogreen/homebridge
 ```
 
 

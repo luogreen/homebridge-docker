@@ -10,9 +10,9 @@
         {
             "platform": "ZP",
             "name": "ZP",
-            "service": "fan",  //把音箱模拟为风扇状态
-            "brightness": true,  //风扇状态可调音量
-            "speakers": true  //有多个音箱可选此项
+            "service": "fan",  
+            "brightness": true,  
+            "speakers": true  
         }
     ]
 }

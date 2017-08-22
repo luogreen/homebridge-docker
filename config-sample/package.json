@@ -1,4 +1,0 @@
- {  "scripts": {
-    "install": "npm install -g homebridge-synology homebridge-sonos --unsafe-perm"
-  }
-}
